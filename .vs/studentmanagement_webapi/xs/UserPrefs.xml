@@ -1,0 +1,53 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F673E257-A0B2-4D75-AAB0-996491F5DEBC}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="studentmanagement_webapi/Helpers/AppException.cs">
+    <Files>
+      <File FileName="studentmanagement_webapi/Authorization/AllowAnonymousAttribute.cs" Line="6" Column="1" />
+      <File FileName="studentmanagement_webapi/Authorization/AuthorizeAttribute.cs" Line="29" Column="10" />
+      <File FileName="studentmanagement_webapi/Authorization/JwtMiddleware.cs" Line="4" Column="40" />
+      <File FileName="studentmanagement_webapi/Authorization/IJwtUtils.cs" Line="7" Column="40" />
+      <File FileName="studentmanagement_webapi/Controllers/UsersController.cs" Line="2" Column="45" />
+      <File FileName="studentmanagement_webapi/User.cs" Line="16" Column="21" />
+      <File FileName="studentmanagement_webapi/Helpers/AppException.cs" Line="1" Column="1" />
+      <File FileName="studentmanagement_webapi/Helpers/AppSettings.cs" Line="6" Column="43" />
+      <File FileName="studentmanagement_webapi/Data/DataContext.cs" Line="17" Column="1" />
+      <File FileName="studentmanagement_webapi/Helpers/ErrorHandlerMiddleware.cs" Line="6" Column="33" />
+      <File FileName="studentmanagement_webapi/Models/Users/AuthenticateRequest.cs" Line="11" Column="45" />
+      <File FileName="studentmanagement_webapi/Models/Users/AuthenticateResponse.cs" Line="20" Column="27" />
+      <File FileName="studentmanagement_webapi/Services/UserService.cs" Line="60" Column="2" />
+      <File FileName="studentmanagement_webapi/Program.cs" Line="29" Column="1" />
+      <File FileName="studentmanagement_webapi/Controllers/ParentController.cs" Line="48" Column="46" />
+      <File FileName="studentmanagement_webapi/Controllers/StudentController.cs" Line="26" Column="69" />
+      <File FileName="studentmanagement_webapi/Controllers/LessonController.cs" Line="28" Column="46" />
+      <File FileName="studentmanagement_webapi/Controllers/TeacherController.cs" Line="1" Column="1" />
+      <File FileName="studentmanagement_webapi/Controllers/UserController.cs" Line="6" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="studentmanagement_webapi" expanded="True">
+            <Node name="studentmanagement_webapi" expanded="True">
+              <Node name="Authorization" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Users" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.studentmanagement__webapi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
