@@ -4,6 +4,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="studentmanagement_webapi/Program.cs">
     <Files>
       <File FileName="studentmanagement_webapi/Program.cs" Line="20" Column="1" />
@@ -12,6 +13,20 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="studentmanagement_webapi" expanded="True" selected="True" />
+=======
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.studentmanagement__webapi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="studentmanagement_webapi" expanded="True">
+            <Node name="studentmanagement_webapi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+            </Node>
+          </Node>
+>>>>>>> fbe17c3 (z)
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -19,6 +34,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+<<<<<<< HEAD
   <MonoDevelop.Ide.ItemProperties.studentmanagement__webapi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+=======
+>>>>>>> fbe17c3 (z)
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
