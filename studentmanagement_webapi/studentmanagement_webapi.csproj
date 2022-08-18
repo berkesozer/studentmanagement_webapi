@@ -26,18 +26,8 @@
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Newtonsoft.Json" />
-    <None Remove="Authorization\" />
-    <None Remove="Helpers\" />
-    <None Remove="Models\" />
-    <None Remove="Models\Users\" />
-    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="Authorization\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Models\" />
-    <Folder Include="Models\Users\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 </Project>

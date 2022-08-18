@@ -1,6 +1,6 @@
 ﻿using System;
-using studentmanagement_webapi.Helpers;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
 
 namespace studentmanagement_webapi.Data
 {
@@ -9,12 +9,6 @@ namespace studentmanagement_webapi.Data
 
         public DataContext(DbContextOptions<DataContext> options) : base(options){ }
         public DbSet<User> Users { get; set; }
-        private readonly IConfiguration Configuration;
-        public DataContext(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
-
         public DbSet<Student> Students { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Parent> Parents { get; set; }
