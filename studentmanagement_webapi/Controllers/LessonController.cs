@@ -22,14 +22,14 @@ namespace studentmanagement_webapi.Controllers
         }
 
         [HttpGet]
-        //[Authorize(Roles = "Admin,Teacher")]
+        [Authorize(Roles = "Admin, Teacher")]
         public async Task<ActionResult<List<Lesson>>> GetLessons()
         {
             return Ok(await _context.Lessons.ToListAsync());
         }
 
-        [HttpGet("{id}")]
-        //[Authorize(Roles = "Admin, Teacher")]
+        [HttpGet("{GetLessonByid}")]
+        [Authorize(Roles = "Admin, Teacher")]
         public async Task<ActionResult<Lesson>> GetLessonById(int id)
         {
             var dbLesson = await _context.Lessons.FindAsync(id);
@@ -39,7 +39,7 @@ namespace studentmanagement_webapi.Controllers
         }
 
         [HttpPost]
-        //[Authorize(Roles ="Admin")]
+        [Authorize(Roles ="Admin")]
         public async Task<ActionResult<List<Lesson>>> AddLesson(Lesson lesson)
         {
             _context.Lessons.Add(lesson);

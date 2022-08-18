@@ -21,15 +21,15 @@ namespace studentmanagement_webapi.Controllers
             _context = context;
         }
 
-        [HttpGet]
-        //[Authorize(Roles = "Admin,Teacher")]
+        [HttpGet(Name = "GetStudents"),
+            Authorize(Roles = "Admin, Teacher")]
         public async Task<ActionResult<List<Student>>> GetStudents()
         {
             return Ok(await _context.Students.ToListAsync());
         }
 
-        [HttpGet("{id}")]
-        //[Authorize(Roles = "Admin, Teacher")]
+        [HttpGet("{GetStudentByid}"),
+            Authorize(Roles = "Admin, Teacher")]
         public async Task<ActionResult<Student>> GetStudentById(int id)
         {
             var dbStudent = await _context.Students.FindAsync(id);
@@ -38,8 +38,8 @@ namespace studentmanagement_webapi.Controllers
             return Ok(dbStudent);
         }
 
-        [HttpPost]
-        //[Authorize(Roles ="Admin")]
+        [HttpPost (Name = "CreateStudent"),
+            Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<Student>>> AddStudent(Student student)
         {
             _context.Students.Add(student);
@@ -48,8 +48,8 @@ namespace studentmanagement_webapi.Controllers
             return Ok(await _context.Students.ToListAsync());
         }
 
-        [HttpPut]
-        //[Authorize(Roles = "Admin")]
+        [HttpPut(Name = "UpdateStudent"),
+            Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<Student>>> UpdateStudent (Student request)
         {
             var dbStudent = await _context.Students.FindAsync(request.Id);
@@ -65,8 +65,8 @@ namespace studentmanagement_webapi.Controllers
             return Ok(await _context.Students.ToListAsync());
         }
 
-        [HttpDelete("{id}")]
-        //[Authorize(Roles = "Admin")]
+        [HttpDelete("{DeleteByid}"),
+            Authorize(Roles = "Admin")]
         public async Task<ActionResult<Student>> DeleteStudent(int id)
         {
             var dbStudent = await _context.Students.FindAsync(id);

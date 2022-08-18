@@ -260,3 +260,8 @@
 /Users/berkesozer/Projects/studentmanagement_webapi/studentmanagement_webapi/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
 /Users/berkesozer/Projects/studentmanagement_webapi/studentmanagement_webapi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
 /Users/berkesozer/Projects/studentmanagement_webapi/studentmanagement_webapi/bin/Debug/net6.0/BCrypt.Net-Next.dll
+/Users/berkesozer/Projects/studentmanagement_webapi/studentmanagement_webapi/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/berkesozer/Projects/studentmanagement_webapi/studentmanagement_webapi/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/berkesozer/Projects/studentmanagement_webapi/studentmanagement_webapi/bin/Debug/net6.0/Scrutor.dll
+/Users/berkesozer/Projects/studentmanagement_webapi/studentmanagement_webapi/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.dll
+/Users/berkesozer/Projects/studentmanagement_webapi/studentmanagement_webapi/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll
