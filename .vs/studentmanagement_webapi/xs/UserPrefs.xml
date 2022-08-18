@@ -2,16 +2,10 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="studentmanagement_webapi/Program.cs">
-    <Files>
-      <File FileName="studentmanagement_webapi/UserDto.cs" Line="8" Column="6" />
-      <File FileName="studentmanagement_webapi/User.cs" Line="11" Column="49" />
-      <File FileName="studentmanagement_webapi/Data/DataContext.cs" Line="10" Column="47" />
-      <File FileName="studentmanagement_webapi/Program.cs" Line="33" Column="1" />
-      <File FileName="studentmanagement_webapi/Controllers/AuthController.cs" Line="26" Column="29" />
-      <File FileName="studentmanagement_webapi/appsettings.json" Line="4" Column="5" />
-    </Files>
+  <MonoDevelop.Ide.ItemProperties.studentmanagement__webapi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -19,7 +13,6 @@
             <Node name="studentmanagement_webapi" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -29,7 +22,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.studentmanagement__webapi PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
